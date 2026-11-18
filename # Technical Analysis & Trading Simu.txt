@@ -1,0 +1,36 @@
+# Technical Analysis & Trading Simulation (Excel, Python)
+
+University of Macedonia, 2024–25. Course project on technical analysis and
+managing a simulated portfolio.
+
+## What this project does
+- Calculates technical indicators on daily price data.
+- Turns indicator signals into buy / sell / hold decisions.
+- Manages a simulated €1,000,000 portfolio and rebalances it on two dates
+  (31/10/2024 and 07/11/2024).
+
+## Data
+Daily prices from Investing.com, about one year, for:
+- Stocks: AMD, NVIDIA, Alphabet, Apple, Meta
+- Crypto: Bitcoin, Ethereum
+- Gold futures
+- Index futures: Nasdaq 100 and S&P 500
+
+## Indicators (built with Excel formulas)
+Moving averages RSI, MACD, PPO, ROC,
+Williams %R, Stochastic, ATR, Bollinger Bands, envelopes, OBV, PVT and a
+Fibonacci levels calculator.
+
+## Portfolio simulation
+Each indicator gives a buy / sell / neutral signal per asset. Positions were
+adjusted according to these signals and the portfolio was valued on each date
+
+
+## Python
+Course-provided Python notebooks were run in Google
+Colab to compute RSI, MACD and Price Oscillator and to generate buy/sell
+signals. The notebooks are not included here.
+
+
+## Notes
+Educational project with simulated investments. Not financial advice.
